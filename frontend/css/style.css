@@ -108,15 +108,15 @@ footer {
     padding: 20px;
     margin-top: 40px;
 }
-/* Login Page */
 
+/* Login Page */
 .login-container{
     width:350px;
     margin:80px auto;
-    background:white;
+    background:#FFFFE3;
     padding:30px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
     text-align:center;
 }
 
@@ -135,7 +135,8 @@ footer {
 .login-container button{
     width:100%;
     padding:12px;
-    background:#0d6efd;
+    margin-bottom: 10px;
+    background:#0A2947;
     color:white;
     border:none;
     border-radius:5px;
@@ -144,15 +145,18 @@ footer {
 }
 
 .login-container button:hover{
-    background:#084db8;
+    background:#244868;
 }
 
 .login-container a{
     text-decoration:none;
-    color:#0d6efd;
+    color:#0A2947;
 }
-/* Rooms Page */
+.login-container a:hover{
+    color: #244868;
+}
 
+/* Rooms Page */
 .rooms{
     padding:40px;
     text-align:center;
@@ -168,7 +172,7 @@ footer {
 
 .room-card{
     width:300px;
-    background:white;
+    background:#FFFFE3;
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,0.15);
     overflow:hidden;
@@ -191,7 +195,7 @@ footer {
 .room-card button{
     margin:15px;
     padding:10px 20px;
-    background:#0d6efd;
+    background:#0A2947;
     color:white;
     border:none;
     border-radius:5px;
@@ -199,7 +203,7 @@ footer {
 }
 
 .room-card button:hover{
-    background:#084db8;
+    background:#244868;
 }
 /* Roommate Page */
 
@@ -218,14 +222,14 @@ footer {
 
 .roommate-card{
     width:280px;
-    background:white;
+    background:#FFFFE3;
     padding:20px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.15);
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
 }
 
 .roommate-card h3{
-    color:#0d6efd;
+    color:#0A2947;
     margin-bottom:15px;
 }
 
@@ -237,14 +241,14 @@ footer {
     margin-top:15px;
     padding:10px 20px;
     border:none;
-    background:#0d6efd;
+    background:#0A2947;
     color:white;
     border-radius:5px;
     cursor:pointer;
 }
 
 .roommate-card button:hover{
-    background:#084db8;
+    background:#244868;
 }
 /* Orders Page */
 
@@ -263,14 +267,14 @@ footer {
 
 .order-card{
     width:280px;
-    background:white;
+    background:#FFFFE3;
     padding:20px;
     border-radius:10px;
     box-shadow:0 0 10px rgba(0,0,0,0.15);
 }
 
 .order-card h3{
-    color:#0d6efd;
+    color:#0A2947;
     margin-bottom:15px;
 }
 
@@ -279,7 +283,7 @@ footer {
 }
 
 .order-card button{
-    background:#0d6efd;
+    background:#0A2947;
     color:white;
     border:none;
     padding:10px 20px;
@@ -288,7 +292,7 @@ footer {
 }
 
 .order-card button:hover{
-    background:#084db8;
+    background:#244868;
 }
 /* Profile Page */
 
@@ -301,11 +305,11 @@ footer {
 
 .profile-card{
     width:400px;
-    background:white;
+    background:#FFFFE3;
     text-align:center;
     padding:30px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
 }
 
 .profile-card img{
@@ -317,7 +321,7 @@ footer {
 }
 
 .profile-card h2{
-    color:#0d6efd;
+    color:#0A2947;
     margin-bottom:15px;
 }
 
@@ -338,7 +342,7 @@ footer {
 }
 
 .edit-btn{
-    background:#0d6efd;
+    background:#0A2947;
 }
 
 .logout-btn{
@@ -346,7 +350,7 @@ footer {
 }
 
 .edit-btn:hover{
-    background:#084db8;
+    background:#244868;
 }
 
 .logout-btn:hover{
