@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Room | Happy Homes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="register-container">
+
+        <h2>Add New Room</h2>
+
+        <form id="addRoomForm">
+
+            <input type="text"
+                   id="title"
+                   placeholder="Room Title"
+                   required>
+
+            <input type="text"
+                   id="location"
+                   placeholder="Location"
+                   required>
+
+            <input type="number"
+                   id="rent"
+                   placeholder="Monthly Rent"
+                   required>
+
+            <input type="text"
+                   id="roomType"
+                   placeholder="Room Type (Single, Double, PG...)"
+                   required>
+
+            <input type="text"
+                   id="ownerName"
+                   placeholder="Owner Name"
+                   required>
+
+            <input type="text"
+                   id="ownerPhone"
+                   placeholder="Owner Phone"
+                   required>
+
+            <textarea
+                id="description"
+                placeholder="Room Description"
+                rows="5"
+                required></textarea>
+
+            <button type="submit">Add Room</button>
+
+        </form>
+
+    </div>
+
+    <script src="js/addRoom.js"></script>
+
+</body>
+</html>

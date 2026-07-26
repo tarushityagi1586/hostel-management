@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orders & Services</title>
+    <title>Student Services | Happy Homes</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,55 +13,109 @@
         <h2>Happy Homes</h2>
 
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="rooms.html">Rooms</a></li>
-            <li><a href="roommate.html">Roommate</a></li>
-            <li><a href="profile.html">Profile</a></li>
-        </ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="rooms.html">Rooms</a></li>
+    <li><a href="addRoom.html">Add Room</a></li>
+    <li><a href="roommate.html">Roommate</a></li>
+    <li><a href="addRoommate.html">Add Roommate</a></li>
+    <li><a href="profile.html">Profile</a></li>
+</ul>
     </nav>
 </header>
 
-<section class="orders">
+<section class="services">
 
-    <h1>Orders & Services</h1>
+    <h1> Nearby Student Services</h1>
 
-    <div class="order-container">
+    <div class="service-container">
 
-        <div class="order-card">
-            <h3>🛒 Grocery</h3>
-            <p>Find your nearest grocery store on maps</p>
-            <button>See on Maps</button>
+        <div class="service-card">
+
+            <h2>🛒 Grocery Stores</h2>
+
+            <p>Find nearby grocery stores around your hostel.</p>
+
+            <button onclick="openMap('grocery')">
+                View on Map
+            </button>
+
         </div>
 
-        <div class="order-card">
-            <h3>🪑 Second-Hand Furniture</h3>
-            <p>Affordable beds, tables, chairs and cupboards.</p>
-            <button>View Items</button>
+        <div class="service-card">
+
+            <h2>💊 Medical Stores</h2>
+
+            <p>Locate nearby pharmacies.</p>
+
+            <button onclick="openMap('medical')">
+                View on Map
+            </button>
+
         </div>
 
-        <div class="order-card">
-            <h3>🛠 Electrician</h3>
-            <p>Book an electrician for repairs.</p>
-            <button>Contact Now</button>
+        <div class="service-card">
+
+            <h2>🏥 Hospitals</h2>
+
+            <p>Nearest hospitals and emergency care.</p>
+
+            <button onclick="openMap('hospital')">
+                View on Map
+            </button>
+
         </div>
 
-        <div class="order-card">
-            <h3>🚰 Plumber</h3>
-            <p>Quick plumbing services.</p>
-            <button>Contact Now</button>
+        <div class="service-card">
+
+            <h2>🪑 Furniture Rental</h2>
+
+            <p><strong>Name:</strong> RentEasy Furniture</p>
+
+            <p><strong>Phone:</strong> +91-9876543210</p>
+
+            <p><strong>Address:</strong> Ballupur, Dehradun</p>
+
+            <button onclick="callService('9876543210')">
+             📞 Contact
+            </button>
+
         </div>
 
-        <div class="order-card">
-            <h3>🧹 Cleaning Service</h3>
-            <p>Professional room cleaning.</p>
-            <button>Contact Now</button>
+        <div class="service-card">
+
+            <h2>🔧 Plumber</h2>
+
+            <p><strong>Name:</strong> Sharma Plumbing</p>
+
+            <p><strong>Phone:</strong> +91-9123456789</p>
+            <p><strong>Address:</strong> Prem Nagar, Dehradun</p>
+
+            <button onclick="callService('9123456789')">
+             📞 Contact
+            </button>
+
+        </div>
+
+        <div class="service-card">
+
+            <h2>🧹 Cleaning Service</h2>
+
+            <p><strong>Name:</strong> CleanHome Services</p>
+
+            <p><strong>Phone:</strong> +91-9988776655</p>
+            <p><strong>Address:</strong> Clement Town, Dehradun</p>
+
+            <button onclick="callService('9988776655')">
+             📞 Contact
+            </button>
+
         </div>
 
     </div>
 
 </section>
 
-<script src="js/script.js"></script>
+<script src="js/orders.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Happy Homes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="register-container">
+
+        <h2>Create Account</h2>
+
+        <form id="registerForm">
+            <input type="text"
+                id="name"
+                placeholder="Full Name"
+                required>
+            <input type="email"
+                id="email"
+                placeholder="Email"
+                required>
+            <input type="password"
+                id="password"
+                placeholder="Password"
+                required>
+            <input type="password"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+                required>
+            <input type="text"
+                id="phone"
+                placeholder="Phone Number"
+                required>
+            <input type="text"
+                id="college"
+                placeholder="College Name"
+                required>
+            <input type="number"
+                id="budget"
+                placeholder="Monthly Budget"
+                required>
+
+            <select id="foodPreference" title="Food Preference">
+
+                <option value="">Food Preference</option>
+
+                <option>Vegetarian</option>
+
+                <option>Non-Vegetarian</option>
+
+                <option>Vegan</option>
+
+            </select>
+
+            <select id="gender" title="Gender">
+
+                <option value="">Gender</option>
+
+                <option>Male</option>
+
+                <option>Female</option>
+
+                <option>Other</option>
+
+            </select>
+
+            <button type="submit">
+                Register
+            </button>
+
+        </form>
+
+        <p>
+
+            Already have an account?
+
+            <a href="login.html">
+
+                Login
+
+            </a>
+
+        </p>
+
+    </div>
+
+    <script src="js/auth.js"></script>
+
+</body>
+
+</html>

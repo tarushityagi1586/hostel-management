@@ -13,47 +13,62 @@
     <header>
         <nav class="navbar">
             <h2>Happy Homes</h2>
-
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="roommate.html">Roommate</a></li>
-                <li><a href="orders.html">Orders</a></li>
-                <li><a href="profile.html">Profile</a></li>
-            </ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="addRoom.html">Add Room</a></li>
+    <li><a href="roommate.html">Roommate</a></li>
+    <li><a href="addRoommate.html">Add Roommate</a></li>
+    <li><a href="orders.html">Orders</a></li>
+    <li><a href="profile.html">Profile</a></li>
+</ul>
         </nav>
     </header>
 
     <section class="rooms">
 
         <h1>Available Rooms</h1>
+          <div style="text-align:center; margin:20px;">
+    <a href="addRoom.html">
+        <button>Add New Room</button>
+    </a>
+     </div>
+     <div class="filter-container">
 
-        <div class="room-container">
+    <input
+        type="text"
+        id="locationFilter"
+        placeholder="Search by Location">
 
-            <div class="room-card">
-                <img src="images/room1.jpg" alt="Room">
-                <h3>Single Room</h3>
-                <p><strong>Rent:</strong> ₹6000/month</p>
-                <p><strong>Location:</strong> Near University</p>
-                <button>Contact Owner</button>
-            </div>
+    <select id="typeFilter" title="typeFilter">
 
-            <div class="room-card">
-                <img src="images/room2.jpg" alt="Room">
-                <h3>Double Sharing </h3>
-                <p><strong>Rent:</strong> ₹4500/month</p>
-                <p><strong>Location:</strong> City Center</p>
-                <button>Contact Owner</button>
-            </div>
+        <option value="">All Room Types</option>
 
-            <div class="room-card">
-                <img src="images/room3.jpg" alt="Room">
-                <h3>Girls PG</h3>
-                <p><strong>Rent:</strong> ₹7000/month</p>
-                <p><strong>Location:</strong> Near College</p>
-                <button>Contact Owner</button>
-            </div>
+        <option value="Single">Single</option>
 
-        </div>
+        <option value="Double">Double</option>
+
+        <option value="Triple">Triple</option>
+
+        <option value="PG">PG</option>
+
+    </select>
+
+    <input
+        type="number"
+        id="budgetFilter"
+        placeholder="Maximum Budget">
+
+    <button onclick="filterRooms()">
+
+        Search
+
+    </button>
+
+</div>
+
+        <div class="room-container" id="roomContainer">
+
+        </div> 
 
     </section>
 
