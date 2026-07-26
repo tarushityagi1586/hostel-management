@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Roommate</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="register-container">
+
+    <h2>Find a Roommate</h2>
+    <form id="addRoommateForm">
+
+    <input type="text"
+        id="name"
+        placeholder="Full Name"
+        required>
+
+    <input type="number"
+        id="age"
+        placeholder="Age"
+        required>
+
+    <select id="gender" title="gender">
+
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+
+    </select>
+
+    <input type="text"
+        id="college"
+        placeholder="College Name"
+        required>
+
+    <input type="text"
+        id="location"
+        placeholder="Preferred Location"
+        required>
+
+    <input type="number"
+        id="budget"
+        placeholder="Monthly Budget"
+        required>
+
+    <select id="foodPreference" title="foodPreference">
+
+        <option value="">Food Preference</option>
+        <option>Vegetarian</option>
+        <option>Non-Vegetarian</option>
+        <option>Vegan</option>
+
+    </select>
+
+    <select id="smoking" title="smoking">
+
+        <option value="">Smoking Habit</option>
+        <option>No</option>
+        <option>Occasionally</option>
+        <option>Yes</option>
+
+    </select>
+
+    <input type="text"
+        id="contact"
+        placeholder="Contact Number"
+        required>
+
+    <textarea
+        id="bio"
+        rows="5"
+        placeholder="Tell others about yourself"></textarea>
+
+    <button type="submit">
+
+        Post Requirement
+
+    </button>
+
+</form>
+
+</div>
+
+<script src="js/addRoommate.js"></script>
+
+</body>
+</html>

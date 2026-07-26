@@ -14,11 +14,13 @@
         <h2>Happy Homes</h2>
 
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="rooms.html">Rooms</a></li>
-            <li><a href="roommate.html">Roommate</a></li>
-            <li><a href="orders.html">Orders</a></li>
-        </ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="rooms.html">Rooms</a></li>
+    <li><a href="addRoom.html">Add Room</a></li>
+    <li><a href="roommate.html">Roommate</a></li>
+    <li><a href="addRoommate.html">Add Roommate</a></li>
+    <li><a href="orders.html">Orders</a></li>
+</ul>
     </nav>
 </header>
 
@@ -28,20 +30,24 @@
 
         <img src="images/profile.png" alt="Profile Picture">
 
-        <h2>Aditya Kumar</h2>
+        <h2 id="profileName"></h2>
 
-        <p><strong>Email:</strong> aditya@example.com</p>
+<p><strong>Email:</strong> <span id="profileEmail"></span></p>
 
-        <p><strong>Phone:</strong> +91 9876543210</p>
+<p><strong>Phone:</strong> <span id="profilePhone"></span></p>
 
-        <p><strong>College:</strong> Uttarakhand Technical University</p>
+<p><strong>College:</strong> <span id="profileCollege"></span></p>
 
-        <p><strong>Budget:</strong> ₹6000/month</p>
-         <p><strong>Food Preference:</strong> Vegetarian</p>
+<p><strong>Budget:</strong> ₹<span id="profileBudget"></span>/month</p>
 
-        <p><strong>Room Preference:</strong> Single Room</p>
+<p><strong>Food Preference:</strong> <span id="profileFood"></span></p>
 
-        <button class="edit-btn">Edit Profile</button>
+<p><strong>Room Preference:</strong> <span id="profileRoom"></span></p>
+
+        <button
+        class="edit-btn"
+        onclick="window.location.href='editProfile.html'">
+        Edit Profile </button>
 
         <button class="logout-btn">Logout</button>
 
